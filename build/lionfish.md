@@ -1,7 +1,7 @@
 
 # Lionfish
 
-## Android build
+## Android source code
 
 >Lionfish$ repo init -u ssh://android.garmin.com.tw:29419/android/alishan/manifests -b lionfish -m lionfish_v3.81_20200117.xml --repo-url=git://android.garmin.com.tw/tools/repo.git --no-repo-verify
 
@@ -9,5 +9,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODU5MTIwMywxNzMxNjU0MTM2XX0=
+eyJoaXN0b3J5IjpbMTEwNTkzODUsMTczMTY1NDEzNl19
 -->
