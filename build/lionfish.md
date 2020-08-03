@@ -54,8 +54,11 @@
 ## Certificate PKIX exception
 
 ### copy cert file
+Copy that file to your local java installation, using a path similar to the following:
 
-###  change jre secur
+Windows->C:\Program Files\Java\jdk8\jre\lib\security\cacerts, Linux->/opt/java/jre/lib/security\cacerts, or Mac→/Library/Java/Home/lib/security/cacerts
+
+###  change jre security provider
 
 The "Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files" answer did not work for me but The BouncyCastle's JCE provider suggestion did.
 
@@ -70,8 +73,8 @@ Here are the steps I took using Java 1.6.0_65-b14-462 on Mac OSC 10.7.5
 
 2) move these jars to $JAVA_HOME/lib/ext
 
-3) edit $JAVA_HOME/lib/security/java.security as follows: security.provider.1=org.bouncycastle.jce.provider.BouncyCastleProvider
+3) edit $JAVA_HOME/lib/security/java.security as follows: security.provider.9=org.bouncycastle.jce.provider.BouncyCastleProvider
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3NDYwNjE5LC04Mjg4MzM1NDIsMTczMT
+eyJoaXN0b3J5IjpbNjM3NzIyNDc3LC04Mjg4MzM1NDIsMTczMT
 Y1NDEzNl19
 -->
