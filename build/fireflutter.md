@@ -1,15 +1,15 @@
-# APP with Flutter + Firebase
+
+# App with Flutter + Firebase
 
 ## Flutter
 
 ## Firebase
 
-### Firestore export to excel
+### Firestore
+#### export to/from Excel
+#### Data model
 
-### 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+### Publish pre-release app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzkyMjY4NF19
+eyJoaXN0b3J5IjpbLTE2MTQ3NDEyMTksMTYwMzkyMjY4NF19
 -->
