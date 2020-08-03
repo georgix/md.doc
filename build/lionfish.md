@@ -50,6 +50,28 @@
 >build@c6a9deb073db:/android$ . tools/garmin/garmin-wrapper.sh
 >build@c6a9deb073db:/android$ glunch
 >build@c6a9deb073db:/android$ gmmm vendor/garmin/system/hydra/
+
+## Certificate PKIX exception
+
+### copy cert file
+
+###  change jre secur
+
+The "Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files" answer did not work for me but The BouncyCastle's JCE provider suggestion did.
+
+Here are the steps I took using Java 1.6.0_65-b14-462 on Mac OSC 10.7.5
+
+1) Download these jars:
+
+-   [bcprov-jdk15on-154.jar](https://www.bouncycastle.org/download/bcprov-jdk15on-154.jar)
+    
+-   [bcprov-ext-jdk15on-154.jar](https://www.bouncycastle.org/download/bcprov-ext-jdk15on-154.jar)
+    
+
+2) move these jars to $JAVA_HOME/lib/ext
+
+3) edit $JAVA_HOME/lib/security/java.security as follows: security.provider.1=org.bouncycastle.jce.provider.BouncyCastleProvider
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODgzMzU0MiwxNzMxNjU0MTM2XX0=
+eyJoaXN0b3J5IjpbNDk3NDYwNjE5LC04Mjg4MzM1NDIsMTczMT
+Y1NDEzNl19
 -->
