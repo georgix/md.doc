@@ -21,8 +21,22 @@
 	 #else
 	     pvMemory = (PVOID)NULL;
 	 #endif
+## Add log s
+	diff --git a/device.mk b/device.mk
+	index 1a69373..7a993a7 100644
+	--- a/device.mk
+	+++ b/device.mk
+	@@ -49,6 +49,10 @@ PRODUCT_COPY_FILES += \
+	 PRODUCT_COPY_FILES += \
+	        vendor/garmin/misc/scripts/restore_mtkbt.sh:/system/bin/restore_mtkbt.sh
 
-
+	+# GPS on/off test script
+	+PRODUCT_COPY_FILES += \
+	+       vendor/garmin/misc/scripts/vmalloc_info_log.sh:/system/bin/vmalloc_info_log.sh
+	+
+	 #
+	 # PRODUCT_PACKAGES
+	 #
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDE0MDIyNl19
+eyJoaXN0b3J5IjpbMjA2MDgzOTcwMCwtNTk0MTQwMjI2XX0=
 -->
