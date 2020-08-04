@@ -1,5 +1,5 @@
 # Vmalloc leak
-
+## kernel log
 	diff --git a/drivers/combo/drv_wlan/mt6628/wlan/mgmt/cnm_mem.c b/drivers/combo/drv_wlan/mt6628/wlan/mgmt/cnm_mem.c
 	index 4836633..d71c22c 100644
 	--- a/drivers/combo/drv_wlan/mt6628/wlan/mgmt/cnm_mem.c
@@ -21,7 +21,8 @@
 	 #else
 	     pvMemory = (PVOID)NULL;
 	 #endif
-## Add log s
+
+## Add log script
 	diff --git a/device.mk b/device.mk
 	index 1a69373..7a993a7 100644
 	--- a/device.mk
@@ -37,6 +38,8 @@
 	 #
 	 # PRODUCT_PACKAGES
 	 #
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDgzOTcwMCwtNTk0MTQwMjI2XX0=
+eyJoaXN0b3J5IjpbLTEwOTM0ODIyMTksLTU5NDE0MDIyNl19
 -->
