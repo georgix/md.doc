@@ -57,7 +57,19 @@
 	    cat /proc/vmallocinfo >> ${LOG_FILE}
 	    sleep 60
 	done
+## linux service
+	diff --git a/garmin89_tb_ali_kk/init.project.rc b/garmin89_tb_ali_kk/init.project.rc
+	index 0a9f902..e5e6cf3 100755
+	--- a/garmin89_tb_ali_kk/init.project.rc
+	+++ b/garmin89_tb_ali_kk/init.project.rc
+	@@ -384,3 +384,5 @@ service restore_mtkbt /system/bin/restore_mtkbt.sh
+
+	 on property:sys.restore_mtkbt=1
+	     start restore_mtkbt
+	+
+	+service vmalloc_info_log /system/bin/vmalloc_info_log.sh
+	\ No newline at end of file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk0NTY0MzEsLTEwOTM0ODIyMTksLT
-U5NDE0MDIyNl19
+eyJoaXN0b3J5IjpbLTYxNTIyOTU3MiwtMTI2OTQ1NjQzMSwtMT
+A5MzQ4MjIxOSwtNTk0MTQwMjI2XX0=
 -->
