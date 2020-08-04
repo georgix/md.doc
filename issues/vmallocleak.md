@@ -39,7 +39,25 @@
 	 # PRODUCT_PACKAGES
 	 #
 
+cat vmalloc_info_log.sh
+#!/system/bin/sh
 
+
+DATE=$(date "+%Y%m%d%H%M%S")
+LOG_FILE="/sdcard/mtklog/garmin_vmalloc_info_${DATE}.log"
+COMMA=","
+touch ${LOG_FILE}
+chmod 644 ${LOG_FILE}
+while [ true ];
+do
+    date +%Y%m%d%T >> ${LOG_FILE}
+    echo "/proc/meminfo" >> ${LOG_FILE}
+    cat /proc/meminfo >> ${LOG_FILE}
+    echo "/proc/vmallocinfo" >> ${LOG_FILE}
+    cat /proc/vmallocinfo >> ${LOG_FILE}
+    sleep 60
+done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTM0ODIyMTksLTU5NDE0MDIyNl19
+eyJoaXN0b3J5IjpbLTg5NTMzMDExMiwtMTA5MzQ4MjIxOSwtNT
+k0MTQwMjI2XX0=
 -->
