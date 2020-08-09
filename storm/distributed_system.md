@@ -6,8 +6,6 @@
 
 ### Pseudo TTY
 > socat to redirect traffic + kernel drivers 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDczNzc4OF19
+eyJoaXN0b3J5IjpbLTE5NDQ4NTYxMDJdfQ==
 -->
