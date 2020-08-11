@@ -1,6 +1,6 @@
 
 
-39962		1496.394000	controller		host		HCI_EVT	13	Rcvd Connect Request
+>39962		1496.394000	controller		host		HCI_EVT	13	Rcvd Connect Request
 
 	Frame 39962: 13 bytes on wire (104 bits), 13 bytes captured (104 bits)
 	Bluetooth
@@ -24,7 +24,7 @@
 	        .... .... ..0. .... = Major Service Classes: Limited Discoverable Mode: False
 	        .... .... ...0 0100 = Major Device Class: Audio/Video (0x04)
 	    Link Type: eSCO connection (Voice Channels) (0x02)
-
+>100975		4661.216000	host		controller		HCI_CMD	25	Sent Accept Synchronous Connection Request
 
 	Frame 100975: 25 bytes on wire (200 bits), 25 bytes captured (200 bits)
 	Bluetooth
@@ -51,5 +51,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDQyNDY4NiwtMjA4MTM2MTU2OV19
+eyJoaXN0b3J5IjpbLTYyMDgyMjM0NCwtMjA4MTM2MTU2OV19
 -->
