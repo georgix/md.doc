@@ -24,7 +24,8 @@
 	        .... .... ..0. .... = Major Service Classes: Limited Discoverable Mode: False
 	        .... .... ...0 0100 = Major Device Class: Audio/Video (0x04)
 	    Link Type: eSCO connection (Voice Channels) (0x02)
->100975		4661.216000	host		controller		HCI_CMD	25	Sent Accept Synchronous Connection Request
+
+>100973		4661.101000	controller		host		HCI_EVT	13	Rcvd Connect Request
 
 	
 	Frame 100973: 13 bytes on wire (104 bits), 13 bytes captured (104 bits)
@@ -51,5 +52,6 @@
 	    Link Type: eSCO connection (Voice Channels) (0x02)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTYwMTM5MSwtMjA4MTM2MTU2OV19
+eyJoaXN0b3J5IjpbLTE1MzE3MjI4ODQsLTIwODEzNjE1NjldfQ
+==
 -->
