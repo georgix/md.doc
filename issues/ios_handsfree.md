@@ -1,4 +1,4 @@
-
+# Handsfree iOS connect() fail
 
 >39962		1496.394000	controller		host		HCI_EVT	13	Rcvd Connect Request
 
@@ -52,6 +52,5 @@
 	    Link Type: eSCO connection (Voice Channels) (0x02)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE3MjI4ODQsLTIwODEzNjE1NjldfQ
-==
+eyJoaXN0b3J5IjpbMTkxNTc4Nzg4MSwtMjA4MTM2MTU2OV19
 -->
