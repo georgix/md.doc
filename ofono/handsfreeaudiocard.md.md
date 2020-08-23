@@ -42,8 +42,6 @@ HandsfreeAudioCard
 	</signal>
 	</interface><node name="bluetooth"/><node name="card_1"/><node name="hfp"/></node>"
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTAzODYyN119
+eyJoaXN0b3J5IjpbMTM4MjUyNTYyNV19
 -->
