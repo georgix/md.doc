@@ -6,10 +6,7 @@
 
 
 ## clean sstate-cache
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+sstate-cache-management.sh --cache-dir= -d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MTk1NDUxXX0=
+eyJoaXN0b3J5IjpbMTU2Mjc1NzEyMSw2ODYxOTU0NTFdfQ==
 -->
