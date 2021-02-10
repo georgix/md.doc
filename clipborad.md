@@ -1,34 +1,24 @@
-02-10 14:21:56.084  2950  2950 I PbapService: ACTION_STATE_CHANGE state 1          
-02-10 14:21:56.095  2950  2950 W PbapProvider: db create     
-02-10 14:21:56.235  2950  2950 D CallbackToFuture: <- org.bluez.obex.Client1.RemoveSession:(o)() [/or
-g/bluez/obex]                                                                                        
-02-10 14:21:56.343  2950  4220 D CallbackToFuture: -> org.bluez.obex.Client1.RemoveSession() [/org/bl
-uez/obex]                                                                                            
-02-10 14:21:56.348  2950  5746 E AndroidRuntime: FATAL EXCEPTION: pool-4-thread-1
-02-10 14:21:56.348  2950  5746 E AndroidRuntime: Process: com.garmin.android.pbapservice, PID: 2950  
-02-10 14:21:56.348  2950  5746 E AndroidRuntime: java.util.ConcurrentModificationException
-02-10 14:21:56.348  2950  5746 E AndroidRuntime:        at java.util.ArrayList$ArrayListIterator.next
-(ArrayList.java:573)                                                                                 
-02-10 14:21:56.348  2950  5746 E AndroidRuntime:        at com.garmin.android.pbap.dbus.ObexManager.g
-etInterfaceByPath(ObexManager.java:155)                                                              
-02-10 14:21:56.348  2950  5746 E AndroidRuntime:        at com.garmin.android.pbap.dbus.ObexManager.g
-etInterface(ObexManager.java:164)                                                                    
-02-10 14:21:56.348  2950  5746 E AndroidRuntime:        at com.garmin.android.pbap.dbus.ObexManager.i
-nvokeMethod(ObexManager.java:200)                                                                    
-02-10 14:21:56.348  2950  5746 E AndroidRuntime:        at com.garmin.android.pbap.dbus.ObexManager.-
-wrap0(ObexManager.java)                                                                              
-02-10 14:21:56.348  2950  5746 E AndroidRuntime:        at com.garmin.android.pbap.dbus.ObexManager$1
-.run(ObexManager.java:234)                                                                           
-02-10 14:21:56.348  2950  5746 E AndroidRuntime:        at java.util.concurrent.ThreadPoolExecutor.ru
-nWorker(ThreadPoolExecutor.java:1113)                                                                
-02-10 14:21:56.348  2950  5746 E AndroidRuntime:        at java.util.concurrent.ThreadPoolExecutor$Wo
-rker.run(ThreadPoolExecutor.java:588)                                                                
-02-10 14:21:56.348  2950  5746 E AndroidRuntime:        at java.lang.Thread.run(Thread.java:818)
-02-10 14:21:56.350  2950  2950 W PbapControlDbus: connnectPbap failed, VIS is not connected.         
-02-10 14:21:56.351  2950  2950 I PbapService: ACTION_STATE_CHANGE state 2
-02-10 14:21:56.352  2950  2950 I PbapService: ACTION_STATE_CHANGE state 4                            
-02-10 14:21:56.353  2950  5754 I PbapService: Starting download phone book
+02-11 11:02:59.886  9882 10129 I VisCommConnection (/192.168.0.1:64866): Connected
+02-11 11:02:59.941  9882 21767 I VisCommConnection (/192.168.0.1:64866): Connection with host /192.168.0.1 supports JSON encodings: 0x1
+02-11 11:03:01.472  9882 21767 D IopStream (/192.168.0.1:64866): Resizing receive buffer: 4096 -> 32768
+02-11 11:04:57.191  9882 21767 E VisCommConnection (/192.168.0.1:64866): Exception when handling IOP_VIS_COMM_MSG_FUSION_LINK: java.lang.Exception: Malformed Packet: Checksum fails: 0 != 10
+02-11 11:04:57.191  9882 21767 W Iop     : Packet has invalid header sanity value: 0x0 != 0xbeef
+02-11 11:04:57.192  9882 21767 E IopStream (/192.168.0.1:64866): Maximum receive buffer too small for packet of size: 1679981320
+02-11 11:04:57.192  9882 21767 I VisCommConnection (/192.168.0.1:64866): Disconnected
+02-11 11:04:57.200  9882 21767 I VisCommConnection (/192.168.0.1:64866): Connected
+02-11 11:04:57.219  9882 21811 I VisCommConnection (/192.168.0.1:64866): Connection with host /192.168.0.1 supports JSON encodings: 0x1
+02-11 11:04:58.674  9882 21811 D IopStream (/192.168.0.1:64866): Resizing receive buffer: 4096 -> 32768
+02-11 11:09:40.581  9882 21811 E VisCommConnection (/192.168.0.1:64866): Exception when handling IOP_VIS_COMM_MSG_FUSION_LINK: java.lang.Exception: Malformed Packet: Checksum fails: 0 != 87
+
+
+02-11 11:13:37.323  9882 21811 E VisCommConnection (/192.168.0.1:64866): Exception when handling IOP_VIS_COMM_MSG_FUSION_LINK: java.lang.Exception: Malformed Packet: Checksum fails: 77 != 100
+02-11 11:13:37.323  9882 21811 E IopStream (/192.168.0.1:64866): Maximum receive buffer too small for packet of size: 613010410
+02-11 11:13:37.324  9882 21811 I VisCommConnection (/192.168.0.1:64866): Disconnected
+02-11 11:13:37.402  9882 21811 I VisCommConnection (/192.168.0.1:64866): Connected
+02-11 11:13:37.420  9882 22122 I VisCommConnection (/192.168.0.1:64866): Connection with host /192.168.0.1 supports JSON encodings: 0x1
+02-11 11:13:38.971  9882 22122 D IopStream (/192.168.0.1:64866): Resizing receive buffer: 4096 -> 32768
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzc0OTUxOCwtNTA5NTIyODcxXX0=
+eyJoaXN0b3J5IjpbLTY3NjkwODE2NSwtNjIzNzQ5NTE4LC01MD
+k1MjI4NzFdfQ==
 -->
