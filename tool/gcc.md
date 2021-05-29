@@ -3,8 +3,8 @@
 ## gcc i386
 
 ```
-udo apt-get install gcc-multilib
+sudo apt-get install gcc-multilib
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk1OTQzMDJdfQ==
+eyJoaXN0b3J5IjpbLTQzNDAwOTk3XX0=
 -->
