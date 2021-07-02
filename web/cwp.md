@@ -17,8 +17,9 @@
 > Panel service (daemon).
 
 > #openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/pki/tls/private/hostname.key -out /etc/pki/tls/certs/hostname.crt
-> # systemctl restart cwpsrv.service
+> #systemctl restart cwpsrv.service
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQyNzAxOTEsLTE5Mjc2MDA2NTJdfQ
-==
+eyJoaXN0b3J5IjpbMjEwNzcxNTA1LC0xOTI3NjAwNjUyXX0=
 -->
