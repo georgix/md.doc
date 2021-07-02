@@ -16,7 +16,9 @@
 > Jul 02 09:44:05 www.home.kiwi systemd[1]: Failed to start CentOS Web
 > Panel service (daemon).
 
-
+> #openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/pki/tls/private/hostname.key -out /etc/pki/tls/certs/hostname.crt
+> # systemctl restart cwpsrv.service
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc2MDA2NTJdfQ==
+eyJoaXN0b3J5IjpbLTE0MjQyNzAxOTEsLTE5Mjc2MDA2NTJdfQ
+==
 -->
